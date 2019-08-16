@@ -1,0 +1,28 @@
+$grey10 : #f3f3f3;
+$grey60 : #6f6f6f;
+$grey80 : #3d3d3d;
+$grey90 : #282828;
+$grey100 : #171717;
+
+.sticky-header--link, .sticky-header--link:hover, .sticky-header--link:visited{
+  //background-color: lightgrey;
+  color: $grey10;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.sticky-header--link:hover{
+  transition: 0.2s;
+  background-color: $grey80;
+}
+
+.sticky-header--container{
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  background-color: $grey100;
+  color: $grey10;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+

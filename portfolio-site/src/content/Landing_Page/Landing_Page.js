@@ -4,7 +4,7 @@ import StickyHeader from '../../components/Sticky_Header'
 
 const Landing_Page = () => {
   return(
-  <div clasName="bx--grid"> 
+  <div className="bx--grid"> 
     <StickyHeader />
     {/* <Card /> */}
   </div>
