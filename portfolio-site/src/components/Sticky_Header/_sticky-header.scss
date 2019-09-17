@@ -16,13 +16,18 @@ $grey100 : #171717;
   background-color: $grey80;
 }
 
+// Make the header cover the width of the entire screen
+.sticky-header{
+  //width: 100%;
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
 .sticky-header--container{
   list-style-type: none;
   display: inline-flex;
   align-items: center;
   background-color: $grey100;
   color: $grey10;
-  margin-left: -1rem;
-  margin-right: -1rem;
 }
 
