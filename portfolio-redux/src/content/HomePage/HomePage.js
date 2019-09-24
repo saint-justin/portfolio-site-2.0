@@ -1,9 +1,20 @@
 import React, {Component} from 'react'
+
+//Importing components
 import LinkBox from '../../components/LinkBox'
+import Card from '../../components/Card'
+import StickyHeader from '../../components/StickyHeader'
+
+//Importing SVG's
 import DefaultIcon from '../../assets/icon-question-circle.svg'
 import WebIcon from '../../assets/icon-laptop.svg'
 import GameIcon from '../../assets/icon-gamepad.svg'
-import StickyHeader from '../../components/StickyHeader'
+
+//Importing Images
+import IBMLogo from '../../assets/images/ibm_logo.jpg';
+import IconReact from '../../assets/images/react_icon.png'
+import IconSass from '../../assets/images/sass_icon.png'
+import IconGit from '../../assets/images/git_icon.png'
 
 let stickyNavNames = ['Web Work', 'Game Dev', 'Resume', 'Contact'];
 let stickyNavLinks = ['/', '/', '/', '/']
@@ -31,6 +42,19 @@ class HomePage extends Component {
           </div>
         </div>
         <StickyHeader itemNames={stickyNavNames} itemLinks={stickyNavLinks}/>
+        <div className="body--card-row">
+          <h3 className="body--card-row-title" id="Web Dev">Web Dev</h3>
+          <div className="body--card-row-cards">
+            <Card src={IBMLogo} 
+              alt="IBM Logo"
+              titleText="AI Sol.'s Go to Market"
+              bodyText="My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release."
+              icons={[IconReact, IconSass, IconGit]}/>
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
       </>
     )
   }

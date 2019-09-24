@@ -1,10 +1,15 @@
+// Imports
 @import "../../components/LinkBox/link-box";
 @import "../../components/StickyHeader/sticky-header";
+@import "../../components/Card/card";
 
+// Definitions
 $grey10:#F3F3F3;
 $base-unit: 32px;
 $standard-blue: #588CB0;
 $standard-orange: #FDAC62;
+$font-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+$font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 
 .top--row{
   display: flex;
@@ -29,14 +34,14 @@ $standard-orange: #FDAC62;
 
 .top--name-internal{
   h1{
-    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: $font-sans;
     font-size: 68pt;
     font-weight: 200;
   }
   h2{
     margin-top: $base-unit/2;
     
-    font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+    font-family: $font-mono;
     font-size: 18pt;
     font-weight: 600;
     color: $standard-blue;
@@ -48,8 +53,20 @@ $standard-orange: #FDAC62;
 
 .top--navs{
   width: 9/33%;
-  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-family: $font-mono;
 }
 
-.bx--row{
+.body--card-row{
+  margin: $base-unit*2 $base-unit 0 $base-unit;
+
+  .body--card-row-title{
+    margin: 0 0 $base-unit/4 $base-unit;
+    font-family: $font-mono;
+  }
+
+  .body--card-row-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

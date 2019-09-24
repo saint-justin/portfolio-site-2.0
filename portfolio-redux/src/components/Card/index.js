@@ -1,2 +1,2 @@
-import LinkBox from './LinkBox.js';
-export default LinkBox;
+import Card from './Card.js';
+export default Card;
