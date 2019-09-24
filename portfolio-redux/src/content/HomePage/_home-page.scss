@@ -8,9 +8,10 @@ $grey10:#F3F3F3;
 $base-unit: 32px;
 $standard-blue: #588CB0;
 $standard-orange: #FDAC62;
-$font-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+$type-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
 $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 
+// ------------------------- HEADER/ABOVE THE FOLD RULES -----------------------------------
 .top--row{
   display: flex;
   justify-content: space-between;
@@ -41,7 +42,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   h2{
     margin-top: $base-unit/2;
     
-    font-family: $font-mono;
+    font-family: $type-mono;
     font-size: 18pt;
     font-weight: 600;
     color: $standard-blue;
@@ -53,15 +54,17 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 
 .top--navs{
   width: 9/33%;
-  font-family: $font-mono;
+  font-family: $type-mono;
 }
 
+// ----------------------------- BODY INFO --------------------------------------
 .body--card-row{
   margin: $base-unit*2 $base-unit 0 $base-unit;
 
   .body--card-row-title{
     margin: 0 0 $base-unit/4 $base-unit;
-    font-family: $font-mono;
+    font-family: $type-mono;
+    font-weight: 600;
   }
 
   .body--card-row-cards{

@@ -3,10 +3,32 @@ import React, {Component} from 'react';
 import SVG from 'react-inlinesvg';
 
 // Pull the built path from the pre-built path then pass that into the SVG component
-import arrowPath from "../../assets/arrow-right-solid.svg";
-const RightArrow = () => <SVG src={arrowPath} />;
+import arrowPath from "../../assets/arrow-right.svg";
+//const RightArrow = () => <SVG src={arrowPath} />;
 
 class Card extends Component {
+
+  constructor(props){
+    super(props);
+
+    // Set up icons in the state
+    this.state = { icons: this.addIcons(this.props.icons, this.props.iconAlts) }
+  }
+
+
+  // Takes in lists of icons and their alt tags, turns them into JSX, and returns it all out as a single element
+  addIcons(iconsArr, iconAlts){
+    let iconJSX = [];
+    for(let i=0; i<3; i++){
+      iconJSX.push(
+      <div className="card--footer-icon-wrapper">
+        <img src={iconsArr[i]} alt={iconAlts[i]}></img>
+        <h5>{iconAlts[i]}</h5>
+      </div>)
+    }
+    return <>{iconJSX}</>;
+  }
+
   render(){
     return(
       <article className="card--wrapper">
@@ -16,16 +38,16 @@ class Card extends Component {
           <p className="card--body-text">{this.props.bodyText}</p>
         </div>
         <div className="card--footer">
-          <div className="card--footer-icons"></div>
+          <div className="card--footer-icons">
+            {this.state.icons}
+          </div>
           <div className="card--footer-link">
-            <RightArrow />
+            <img src={arrowPath} alt="" fill="#FFF"/>
           </div>
         </div>
       </article>
       )
   }
 };
-
-
 
 export default Card;

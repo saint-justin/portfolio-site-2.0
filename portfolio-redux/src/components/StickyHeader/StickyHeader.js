@@ -13,7 +13,7 @@ class StickyHeader extends Component {
   addStickyNavItems(itemNameArr, itemLinkArr){
     let componentList = [];
     for(let i=0; i<itemNameArr.length; i++){
-      componentList.push(<h3><a href={itemLinkArr[i]}> {itemNameArr[i]}</a></h3>);
+      componentList.push(<h3><a href={itemLinkArr[i]} key={itemNameArr[i]}> {itemNameArr[i]}</a></h3>);
     }
     return <>{componentList}</>;
   }

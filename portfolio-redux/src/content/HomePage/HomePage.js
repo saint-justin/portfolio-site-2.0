@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 
+//Importing page content
+import pageContent from "./homepage_content"
+
 //Importing components
 import LinkBox from '../../components/LinkBox'
 import Card from '../../components/Card'
@@ -11,7 +14,7 @@ import WebIcon from '../../assets/icon-laptop.svg'
 import GameIcon from '../../assets/icon-gamepad.svg'
 
 //Importing Images
-import IBMLogo from '../../assets/images/ibm_logo.jpg';
+import IBMLogo from '../../assets/images/ibm_logo.jpg'
 import IconReact from '../../assets/images/react_icon.png'
 import IconSass from '../../assets/images/sass_icon.png'
 import IconGit from '../../assets/images/git_icon.png'
@@ -47,12 +50,28 @@ class HomePage extends Component {
           <div className="body--card-row-cards">
             <Card src={IBMLogo} 
               alt="IBM Logo"
-              titleText="AI Sol.'s Go to Market"
-              bodyText="My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release."
-              icons={[IconReact, IconSass, IconGit]}/>
-            <Card />
-            <Card />
-            <Card />
+              titleText={pageContent.ibm.title}
+              bodyText={pageContent.ibm.content}
+              icons={[IconReact, IconSass, IconGit]}
+              iconAlts={["ReactJS", "SASS", "GIT"]}/>
+            <Card src={IBMLogo} 
+              alt="IBM Logo"
+              titleText={pageContent.dino.title}
+              bodyText={pageContent.dino.content}
+              icons={[IconReact, IconSass, IconGit]}
+              iconAlts={["ReactJS", "SASS", "GIT"]}/>
+            <Card src={IBMLogo} 
+              alt="IBM Logo"
+              titleText={pageContent.pokedex.title}
+              bodyText={pageContent.pokedex.content}
+              icons={[IconReact, IconSass, IconGit]}
+              iconAlts={["ReactJS", "SASS", "GIT"]}/>
+            <Card src={IBMLogo} 
+              alt="IBM Logo"
+              titleText={pageContent.pitch.title}
+              bodyText={pageContent.pitch.content}
+              icons={[IconReact, IconSass, IconGit]}
+              iconAlts={["ReactJS", "SASS", "GIT"]}/>
           </div>
         </div>
       </>
