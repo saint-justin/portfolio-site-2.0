@@ -1,0 +1,39 @@
+$grey90: #1E1821;
+$grey70: #565656;
+
+$text01: #E5CFDB;
+$base-unit: 32px;
+
+.nav--wrapper{
+  width: 100%;
+  background-color: $grey90;
+  height: 6.5vh;
+}
+
+.nav--main{
+  flex-direction: row;
+  height: $base-unit;
+
+  // All main elements start 2 units in
+  // Move the element back 1/2 a unit to account for padding
+  margin: 0 0 0 ($base-unit*2)-$base-unit/2;
+}
+
+.nav--main h3{
+  padding: 4px 0 4px 0;
+  display: flex;
+}
+
+.nav--main h3 a{
+  text-decoration: none;
+  color: $text01;
+  padding: $base-unit/8 $base-unit/2 $base-unit/8 $base-unit/2;
+
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-size: 14pt;
+  color: $text01; 
+}
+
+.nav--main h3 a:hover{
+  background-color: $grey70;
+}

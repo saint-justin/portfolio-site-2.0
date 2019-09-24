@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import Home_Page from './content/Home_Page'
+import HomePage from './content/HomePage'
 
 function App() {
   return (
-    <div className="App">
-      <Home_Page />
-    </div>
+    <>
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif&display=swap" rel="stylesheet"></link>
+      <div className="App">
+        <HomePage />
+      </div>
+    </>
   );
 }
 

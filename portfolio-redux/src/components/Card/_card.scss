@@ -1,0 +1,30 @@
+$base-unit: 32px;
+$white: #FFF;
+
+
+.linkbox--icon{
+  width: 50%;
+}
+
+/* TODO: Fix how this is sliding left and right on hover briefly */ 
+.linkbox--wrapper{
+  width: 47.5vh;
+  height: 47.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  transition: 0.08s;
+  text-decoration: none;
+}
+
+.linkbox--wrapper:hover{
+  filter: saturate(2.5);
+}
+
+
+.linkbox--text{
+  font-size: 48pt;
+  color: $white;
+}

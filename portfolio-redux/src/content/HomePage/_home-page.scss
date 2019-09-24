@@ -1,0 +1,55 @@
+@import "../../components/LinkBox/link-box";
+@import "../../components/StickyHeader/sticky-header";
+
+$grey10:#F3F3F3;
+$base-unit: 32px;
+$standard-blue: #588CB0;
+$standard-orange: #FDAC62;
+
+.top--row{
+  display: flex;
+  justify-content: space-between;
+  height: 95vh;
+
+  padding: 0;
+  margin: 0;
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.top--name{
+  margin-left: $base-unit*2;
+  padding: 0 0 $base-unit*3.25 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.top--name-internal{
+  h1{
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 68pt;
+    font-weight: 200;
+  }
+  h2{
+    margin-top: $base-unit/2;
+    
+    font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+    font-size: 18pt;
+    font-weight: 600;
+    color: $standard-blue;
+    span{
+      color: $standard-orange;
+    }
+  }
+}
+
+.top--navs{
+  width: 9/33%;
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+.bx--row{
+}
