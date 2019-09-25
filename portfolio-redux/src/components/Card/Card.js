@@ -33,7 +33,7 @@ class Card extends Component {
     return(
       <article className="card--wrapper">
         <div className="card--body">
-          <img className="card--image" src={this.props.src} alt={this.props.alt}></img>
+        <a href={this.props.link}><img className="card--image" src={this.props.src} alt={this.props.alt}></img></a>
           <h4 className="card--title-text">{this.props.titleText}</h4>
           <p className="card--body-text">{this.props.bodyText}</p>
         </div>

@@ -1,0 +1,31 @@
+.showcase--wrapper{
+  background-image: url(https://people.rit.edu/jtv6445/230/portfolio/media/dark-sloths.png);
+  width: 100%;
+  margin-top: 15vh;
+  padding-bottom: $base-unit*1.5;
+
+  .showcase--content{
+    margin: 0 $base-unit 0 $base-unit;
+
+    .showcase--title{
+      padding-top: $base-unit;
+      margin: 0 0 $base-unit/4 $base-unit;
+      font-family: $type-mono;
+      font-weight: 600;
+      color: $text01;
+    }
+
+    .showcase-image-set{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.showcase--image{
+  width: 24%;
+  height: auto;
+  margin-top: $base-unit/2;
+}

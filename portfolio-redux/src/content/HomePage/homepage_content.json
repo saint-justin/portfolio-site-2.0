@@ -1,27 +1,53 @@
 {
   "ibm": {
     "title": "AI Sol.'s Go to Market",
-    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release.",
+    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release, so please contact me directly to learn more about what I did here or read the article linked below.",
     "link": "/",
     "repo": "/"
   },
   "dino": {
     "title": "Dino Land",
-    "content": "Play as a dinosaur breeder in this DOM-based autoclicker. Programmed entirely in HTML, CSS, and Vanilla JS, See if you can build an everlasting dinosaur-based empire! Click the arrow below to see the final product or click the link to see the repository.",
+    "content": "Play as a dinosaur breeder in this DOM-based autoclicker. Programmed entirely in HTML, CSS, and Vanilla JS, this project was designed to test the limits of what I can make without any frameworks. Try it now to see if you can build an everlasting empire in a dinosaur-based economy!",
     "link": "https://people.rit.edu/jtv6445/230/project4/",
-    "repo": ""
- 
+    "repo": "https://github.com/saint-justin/dino-land"
   },
   "pokedex": {
     "title": "Web App Pokedex",
-    "content": "Ever have an inexplicable desire to learn about a pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use.",
+    "content": "Ever have an inexplicable desire to learn about a Pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use with a partner. All visuals were created by me, pardon the garrish color scheme.",
     "link": "https://people.rit.edu/jtv6445/230/project2/",
-    "repo": ""
+    "repo": "https://github.com/saint-justin/pokedex"
   },
   "pitch": {
     "title": "Dino Land Pitch",
-    "content": "A precursor to Dino Land, this website pitches the initial idea for a 2D party game to be developed in PixiJS, however, the concept shifted into Dino Land prior to production.",
+    "content": "A precursor to Dino Land, this website pitches the initial idea for a 2D party game to be developed in PixiJS. The game itself shifted direction after the pitch website was done being developed, but the site is still a fair example of solid markup and css rule-making.",
     "link": "https://people.rit.edu/jtv6445/230/project1/",
-    "repo": "/"
+    "repo": "https://github.com/saint-justin/dino-pitch/"
+  },
+
+
+
+  "deluge": {
+    "title": "Deluge",
+    "content": "My single-player tile-based strategically-minded action rpg. The game is currently in development by a team of four people ranging from artists to writers to programmers. We all wear a lot of hats because of our skeleton crew, but we get the job done. I'm currently leading production, art, and programming.",
+    "link": "https://www.youtube.com/watch?v=Ftq6Tn1n5SA",
+    "repo": "https://github.com/ianmatic/Deluge"
+  },
+  "egg": {
+    "title": "Egg",
+    "content": "An elegant single player platformer starring a chicken learning to come out of her shell. I lead a four-person team of peers through the development of the game using the MonoGame engine. Initially a class project, we took our idea and ran with it to develop the game we really love.",
+    "link": "https://ianmatic.itch.io/egg",
+    "repo": "https://github.com/saint-justin/egg"
+  },
+  "asteroids": {
+    "title": "Asteroids",
+    "content": "This project began as a test to reproduce the effects and movements of the classic title 'Asteroids' and slowly evolved into a full blown interactive experience. I ran into some odd rendering issues within Unity along the way, so pardon the odd artifacting that happens in game.",
+    "link": "https://drive.google.com/file/d/1y0akXzyidfA3hbpCOnWZGZzVjLRU8ffq/view?usp=sharing",
+    "repo": "https://github.com/saint-justin/asteroids"
+  },
+  "tech": {
+    "title": "Tech Art Exploration",
+    "content": "This isn't so much a single project as it is a collection of experiments. I've been experimenting in Unreal using their Blueprint system to make shaders, vfx, and all sorts of other neat things. This will link you to my recent works in that area.",
+    "link": "https://people.rit.edu/jtv6445/230/project2/",
+    "repo": "https://github.com/saint-justin/pokedex"
   }
 }

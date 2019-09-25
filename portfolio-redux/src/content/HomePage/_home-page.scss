@@ -1,17 +1,27 @@
+// Definitions
+// Colors
+$grey10:#F3F3F3;
+$grey70: #565656;
+$grey90: #1E1821;
+$text01: #E5CFDB;
+$standard-blue: #588CB0;
+$standard-orange: #FDAC62;
+
+// Basic Unit Length
+$base-unit: 32px;
+
+// Typefaces
+$type-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+$font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
 // Imports
 @import "../../components/LinkBox/link-box";
 @import "../../components/StickyHeader/sticky-header";
 @import "../../components/Card/card";
+@import "../../components/Showcase/showcase";
+@import "../../components/Contact/contact";
 
-// Definitions
-$grey10:#F3F3F3;
-$base-unit: 32px;
-$standard-blue: #588CB0;
-$standard-orange: #FDAC62;
-$type-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
-$font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-
-// ------------------------- HEADER/ABOVE THE FOLD RULES -----------------------------------
+// -------------------------------------- HEADER/ABOVE THE FOLD RULES --------------------------------------
 .top--row{
   display: flex;
   justify-content: space-between;
@@ -57,7 +67,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-family: $type-mono;
 }
 
-// ----------------------------- BODY INFO --------------------------------------
+// -------------------------------------- BODY RULES --------------------------------------
 .body--card-row{
   margin: 15vh $base-unit 0 $base-unit;
 
@@ -72,4 +82,12 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+// -------------------------------------- FOOTER RULES --------------------------------------
+.footer--row  {
+  margin-top: 15vh;
+  width: 100%;
+  background-image: url(https://people.rit.edu/jtv6445/230/portfolio/media/dark-sloths.png);
+  color: $text01;
 }
