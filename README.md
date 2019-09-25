@@ -11,4 +11,4 @@ The first and second attempts and building this site are the two folders. The fi
 From design to where it is now, I'm sitting at ~40 hours of work total. That said, that number is a bit skewed because I've been working on this as a side project on and off for around two months.
 
 ## Why did you make _(insert choice here)_ choice?
-Shoot me an email over at https://jvaughn.org/ and I can send you an answer.
+Shoot me an email over in the contact portion of my website https://jvaughn.org/ and I'll be happy to let you know!
