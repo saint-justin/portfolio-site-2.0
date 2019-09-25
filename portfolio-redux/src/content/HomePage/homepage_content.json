@@ -1,18 +1,27 @@
 {
   "ibm": {
     "title": "AI Sol.'s Go to Market",
-    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release."
+    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release.",
+    "link": "/",
+    "repo": "/"
   },
   "dino": {
     "title": "Dino Land",
-    "content": "Play as a dinosaur breeder in this DOM-based autoclicker. Programmed entirely in HTML, CSS, and Vanilla JS, See if you can build an everlasting dinosaur-based empire!"
+    "content": "Play as a dinosaur breeder in this DOM-based autoclicker. Programmed entirely in HTML, CSS, and Vanilla JS, See if you can build an everlasting dinosaur-based empire! Click the arrow below to see the final product or click the link to see the repository.",
+    "link": "https://people.rit.edu/jtv6445/230/project4/",
+    "repo": ""
+ 
   },
   "pokedex": {
     "title": "Web App Pokedex",
-    "content": "Ever have an inexplicable desire to learn about a pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use."
+    "content": "Ever have an inexplicable desire to learn about a pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use.",
+    "link": "https://people.rit.edu/jtv6445/230/project2/",
+    "repo": ""
   },
   "pitch": {
     "title": "Dino Land Pitch",
-    "content": "A precursor to Dino Land, this website pitches the initial idea for a 2D party game to be developed in PixiJS, however, the concept shifted into Dino Land prior to production."
+    "content": "A precursor to Dino Land, this website pitches the initial idea for a 2D party game to be developed in PixiJS, however, the concept shifted into Dino Land prior to production.",
+    "link": "https://people.rit.edu/jtv6445/230/project1/",
+    "repo": "/"
   }
 }

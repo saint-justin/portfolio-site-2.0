@@ -4,7 +4,7 @@ import SVG from 'react-inlinesvg';
 
 // Pull the built path from the pre-built path then pass that into the SVG component
 import arrowPath from "../../assets/arrow-right.svg";
-//const RightArrow = () => <SVG src={arrowPath} />;
+import gitPath from "../../assets/icon-github.svg";
 
 class Card extends Component {
 
@@ -19,7 +19,7 @@ class Card extends Component {
   // Takes in lists of icons and their alt tags, turns them into JSX, and returns it all out as a single element
   addIcons(iconsArr, iconAlts){
     let iconJSX = [];
-    for(let i=0; i<3; i++){
+    for(let i=0; i<iconsArr.length; i++){
       iconJSX.push(
       <div className="card--footer-icon-wrapper">
         <img src={iconsArr[i]} alt={iconAlts[i]}></img>
@@ -42,7 +42,8 @@ class Card extends Component {
             {this.state.icons}
           </div>
           <div className="card--footer-link">
-            <img src={arrowPath} alt="" fill="#FFF"/>
+            <a href={this.props.link} className="card--footer-idividual"><img src={arrowPath} alt="" fill="#FFF"/></a>
+            <a href={this.props.repo} className="card--footer-idividual"><img className="card--body-git" src={gitPath} alt="GitHub Link"/></a>
           </div>
         </div>
       </article>
