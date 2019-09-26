@@ -91,3 +91,12 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   background-image: url(https://people.rit.edu/jtv6445/230/portfolio/media/dark-sloths.png);
   color: $text01;
 }
+
+//
+
+// -------------------------------------- BREAKPOINT RULES --------------------------------------
+@media only screen and (max-width: 1200px) {
+  .card--wrapper{
+    width: 49%;
+  }
+}

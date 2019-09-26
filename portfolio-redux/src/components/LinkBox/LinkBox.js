@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 class LinkBox extends Component {
-  
   render(){
     return(
       <a className="linkbox--wrapper" style={{backgroundColor: this.props.bgColor}} href={this.props.link}>
@@ -13,7 +12,5 @@ class LinkBox extends Component {
       )
   }
 };
-
-
 
 export default LinkBox;

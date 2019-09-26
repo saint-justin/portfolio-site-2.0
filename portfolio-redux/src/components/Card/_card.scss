@@ -46,7 +46,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     }
   }
   .card--footer-link{
-    background-color: $grey100;
+    background-color: $grey70;
 
     display: flex;
     flex-grow: 3;
@@ -57,7 +57,10 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     img{
       fill: $white;
       width: $base-unit;
-      transition: 0.2s;
+    }
+
+    a{
+      background-color: $grey100;
     }
 
   }

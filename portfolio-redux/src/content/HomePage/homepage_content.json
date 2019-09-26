@@ -1,7 +1,7 @@
 {
   "ibm": {
     "title": "AI Sol.'s Go to Market",
-    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release, so please contact me directly to learn more about what I did here or read the article linked below.",
+    "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release, so please contact me directly to learn more about what I did here.",
     "link": "/",
     "repo": "/"
   },
@@ -28,8 +28,8 @@
 
   "deluge": {
     "title": "Deluge",
-    "content": "My single-player tile-based strategically-minded action rpg. The game is currently in development by a team of four people ranging from artists to writers to programmers. We all wear a lot of hats because of our skeleton crew, but we get the job done. I'm currently leading production, art, and programming.",
-    "link": "https://www.youtube.com/watch?v=Ftq6Tn1n5SA",
+    "content": "My team's single-player tile-based strategically-minded action rpg. This game is currently in development by a team of four people each a lot of hats. I'm currently leading production, art, and pieces of programming. Contact me directly for a demo.",
+    "link": "/",
     "repo": "https://github.com/ianmatic/Deluge"
   },
   "egg": {
@@ -48,6 +48,6 @@
     "title": "Tech Art Exploration",
     "content": "This isn't so much a single project as it is a collection of experiments. I've been experimenting in Unreal using their Blueprint system to make shaders, vfx, and all sorts of other neat things. This will link you to my recent works in that area.",
     "link": "https://people.rit.edu/jtv6445/230/project2/",
-    "repo": "https://github.com/saint-justin/pokedex"
+    "repo": "/"
   }
 }

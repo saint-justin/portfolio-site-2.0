@@ -4,7 +4,7 @@ class Showcase extends Component {
   // Takes in an array of image sources and returns them out as a set of JSX objects
   addItems(imageSet){
     let jsxArr = [];
-    imageSet.map(x => jsxArr.push(<img src={x} alt="Gallery Screenshot" className="showcase--image"></img>))
+    imageSet.map(x => jsxArr.push(<img src={x} alt="Gallery Screenshot" className="showcase--image" key={x}></img>))
     return <>{jsxArr}</>
   }
 

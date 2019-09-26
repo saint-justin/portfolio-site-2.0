@@ -12,7 +12,9 @@ class Card extends Component {
     super(props);
 
     // Set up icons in the state
-    this.state = { icons: this.addIcons(this.props.icons, this.props.iconAlts) }
+    this.state = { 
+      icons: this.addIcons(this.props.icons, this.props.iconAlts),
+      links: this.addExternalLinks(this.props.link, this.props.repo)}
   }
 
 
@@ -29,6 +31,16 @@ class Card extends Component {
     return <>{iconJSX}</>;
   }
 
+  // Adds the project and repo links as elements to cards
+  addExternalLinks(link, repo){
+    let linkJSX = [];
+    if (link.length > 1)
+      linkJSX.push(<a href={this.props.link} className="card--footer-idividual"><img src={arrowPath} alt="" fill="#FFF"/></a>)
+    if (repo.length > 1)
+      linkJSX.push(<a href={this.props.repo} className="card--footer-idividual"><img className="card--body-git" src={gitPath} alt="GitHub Link"/></a>)  
+      return <>{linkJSX}</>
+  }
+
   render(){
     return(
       <article className="card--wrapper">
@@ -42,8 +54,7 @@ class Card extends Component {
             {this.state.icons}
           </div>
           <div className="card--footer-link">
-            <a href={this.props.link} className="card--footer-idividual"><img src={arrowPath} alt="" fill="#FFF"/></a>
-            <a href={this.props.repo} className="card--footer-idividual"><img className="card--body-git" src={gitPath} alt="GitHub Link"/></a>
+            {this.state.links}
           </div>
         </div>
       </article>
