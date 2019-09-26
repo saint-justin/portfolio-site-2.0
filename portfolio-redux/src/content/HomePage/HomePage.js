@@ -57,7 +57,7 @@ import IconGitB from '../../assets/icons/gito_icon.png'
 import IconMono from '../../assets/icons/mono_icon.png'
 
 let stickyNavNames = ['Web Work', 'Game Dev', 'Resume', 'Contact', 'GitHub'];
-let stickyNavLinks = ['#web', '#game', './src/assets/justin-vaughn-resume.pdf', '#contact', 'https://github.com/saint-justin']
+let stickyNavLinks = ['#web', '#game', './resume.pdf', '#contact', 'https://github.com/saint-justin']
 
 class HomePage extends Component {
   render(){
@@ -179,6 +179,8 @@ class HomePage extends Component {
               />
           </div>
         </div>
+
+        {/* ------------------------ FOOTER ROW ------------------------ */}
         <div className="footer--row">
           <Contact img={Portrait}/>
         </div>
