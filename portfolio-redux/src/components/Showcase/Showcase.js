@@ -15,7 +15,7 @@ class Showcase extends Component {
           <h3 className="showcase--title">
             Screenshot Showcase
           </h3>
-          <div className="showcase-image-set">
+          <div className="showcase--image-set">
             {this.addItems(this.props.images)}
           </div>
         </div>

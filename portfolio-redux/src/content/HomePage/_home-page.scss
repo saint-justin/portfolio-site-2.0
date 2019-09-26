@@ -48,10 +48,12 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     font-family: $font-sans;
     font-size: 68pt;
     font-weight: 200;
+    line-height: 60pt;
+    margin-right: $base-unit;
   }
   h2{
     margin-top: $base-unit/2;
-    
+    line-height: 20pt;
     font-family: $type-mono;
     font-size: 18pt;
     font-weight: 600;
@@ -75,12 +77,19 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     margin: 0 0 $base-unit/4 $base-unit;
     font-family: $type-mono;
     font-weight: 600;
+
+    
   }
 
   .body--card-row-cards{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    .card--wrapper{
+      // Break to 2 columns 
+
+    }
   }
 }
 
@@ -94,9 +103,60 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 
 //
 
-// -------------------------------------- BREAKPOINT RULES --------------------------------------
-@media only screen and (max-width: 1200px) {
+// -------------------------------------- RESPONSIVE/BREAKPOINT RULES --------------------------------------
+
+@media (max-width: 1200px){
   .card--wrapper{
     width: 49%;
+    margin-bottom: 2vh;
+  }
+
+  .body--card-row-cards{
+      flex-wrap: wrap;
+  }
+
+  .showcase--image-set img{
+    width: 49%;
+  }
+
+.contact--blurb{
+  width: 50%;
+  }
+}
+
+@media (max-width: 800px){
+  .top--row{
+    //padding: $base-unit*2 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top--navs{
+    width: 100%;
+
+    nav{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+    
+    nav a{
+      width: 50%;
+      box-sizing: border-box; 
+      height: 35vh;
+    }
+  }
+
+
+  .contact--wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: $base-unit 0 0 0;
+    
+    .contact--blurb{
+      width: 85%;
+      border-width: $base-unit/4;
+      margin: $base-unit 0;
+    }
   }
 }

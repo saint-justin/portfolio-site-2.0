@@ -121,8 +121,8 @@ class HomePage extends Component {
               alt="IBM Logo"
               titleText={pageContent.pitch.title}
               bodyText={pageContent.pitch.content}
-              icons={[IconCss, IconHtml]}
-              iconAlts={["CSS3", "HTML5"]}
+              icons={[IconCss, IconHtml, IconGitA]}
+              iconAlts={["CSS3", "HTML5", "GIT"]}
               link={pageContent.pitch.link}
               repo={pageContent.pitch.repo}
               />

@@ -12,21 +12,21 @@ class StickyHeader extends Component {
   }
 
   // Makes the element sticky if the distance from the top of the element to the top of the page is greater than zero
-  checkSticky(){
+  /*checkSticky(){
     console.log("moving");
     if (window.pageYOffset >= this.pageYOffset){
       this.classList.add("sticky");
      } else {
        this.classList.remove("sticky");
      }
-  }
+  }*/
 
   // Constructor to set up the basic state for the component
   constructor(props){
     super(props);
     
     // Attach sticky functionality to the window
-    window.onscroll = function(){this.checkSticky()};
+    //swindow.onscroll = function(){this.checkSticky()};
 
     // Set up this item's state
     this.state = { navItems: this.addStickyNavItems(this.props.itemNames, this.props.itemLinks) }
