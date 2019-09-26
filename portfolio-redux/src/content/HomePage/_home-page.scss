@@ -3,6 +3,12 @@
 $grey10:#F3F3F3;
 $grey70: #565656;
 $grey90: #1E1821;
+$grey100: #171717;
+// Basics Units & Measures
+
+// Font imports
+$font-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+$font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 $text01: #E5CFDB;
 $standard-blue: #588CB0;
 $standard-orange: #FDAC62;
@@ -117,6 +123,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 
   .showcase--image-set img{
     width: 49%;
+    height: auto;
   }
 
 .contact--blurb{
@@ -124,7 +131,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .top--row{
     //padding: $base-unit*2 0 0 0;
     flex-direction: column;
@@ -146,7 +153,18 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
       height: 35vh;
     }
   }
+}
 
+@media (max-width: 800px){
+ .nav--wrapper{
+    display: flex;
+    height: auto;
+
+    .nav--main{
+      display: flex;
+      height: auto;
+    }
+  }
 
   .contact--wrapper{
     display: flex;
@@ -158,5 +176,15 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
       border-width: $base-unit/4;
       margin: $base-unit 0;
     }
+  }
+}
+
+@media (max-width: 600px){
+  .card--wrapper{
+    width: 100%;
+  }
+
+  .showcase--image-set img{
+    width: 100%;
   }
 }
