@@ -10,7 +10,7 @@ class Contact extends Component {
         </div>
         <div className="contact--blurb">
           <p>	Justin Vaughn is a 3rd year Game Design & Development - Business Management double major student at the Rochester Institute of Technology. <br></br><br></br>
-            He's a designer, programmer, developer, and all around neato guy. He prefers couch-coop games that don't take themselves too seriously follow closely by whatever other games he can afford. He's probably played too much League to be considered healthy. </p>
+            He's a designer, programmer, developer, and all around neato guy. He prefers couch-coop games that don't take themselves too seriously followed closely by whatever other games he can afford. He's probably played too much League to be considered healthy. </p>
         </div>
         <div className="contact--portrait"> 
           <img src={this.props.img} alt="Self Portrait"></img>

@@ -13,7 +13,7 @@
   },
   "pokedex": {
     "title": "Web App Pokedex",
-    "content": "Ever have an inexplicable desire to learn about a Pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use with a partner. All visuals were created by me, pardon the garrish color scheme.",
+    "content": "Ever have an inexplicable desire to learn about a Pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use with a partner. All visuals were created by me, pardon the garish color scheme.",
     "link": "https://people.rit.edu/jtv6445/230/project2/",
     "repo": "https://github.com/saint-justin/pokedex"
   },
@@ -28,7 +28,7 @@
 
   "deluge": {
     "title": "Deluge",
-    "content": "My team's single-player tile-based strategically-minded action rpg. This game is currently in development by a team of four people each a lot of hats. I'm currently leading production, art, and pieces of programming. Contact me directly for a demo.",
+    "content": "My team's single-player tile-based strategically-minded action rpg. This game is currently in development by a team of four people each wearing a lot of hats. I'm currently leading production, art, and pieces of programming. Contact me directly for a demo.",
     "link": "/",
     "repo": "https://github.com/ianmatic/Deluge"
   },
@@ -47,7 +47,7 @@
   "tech": {
     "title": "Tech Art Exploration",
     "content": "This isn't so much a single project as it is a collection of experiments. I've been experimenting in Unreal using their Blueprint system to make shaders, vfx, and all sorts of other neat things. This will link you to my recent works in that area.",
-    "link": "https://people.rit.edu/jtv6445/230/project2/",
+    "link": "https://twitter.com/sloth__wrangler/",
     "repo": "/"
   }
 }
