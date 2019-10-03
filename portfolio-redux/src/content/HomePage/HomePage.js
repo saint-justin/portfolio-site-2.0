@@ -18,7 +18,7 @@ import GameIcon from '../../assets/icon-gamepad.svg'
 import BannerIbm from '../../assets/images/ibm_logo.jpg'
 import BannerDino from '../../assets/images/dino-land-banner.png'
 import BannerPokedex from '../../assets/images/pokedex-banner.png'
-import BannerPitch from '../../assets/images/pitch-banner.png'
+import BannerWow from '../../assets/images/wow-banner.png'
 
 import BannerDeluge from '../../assets/images/deluge-banner.png'
 import BannerEgg from '../../assets/images/egg-banner.png'
@@ -97,6 +97,16 @@ class HomePage extends Component {
               repo={pageContent.ibm.repo}
               />
             <Card 
+              src={BannerWow} 
+              alt="World of Warcraft Character Selecter Banner"
+              titleText={pageContent.wow.title}
+              bodyText={pageContent.wow.content}
+              icons={[IconJquery, IconJs, IconHtml]}
+              iconAlts={["jQuery", "JS ES6", "HTML5"]}
+              link={pageContent.wow.link}
+              repo={pageContent.wow.repo}
+              />
+            <Card 
               src={BannerDino} 
               alt="Dino Land"
               titleText={pageContent.dino.title}
@@ -115,16 +125,6 @@ class HomePage extends Component {
               iconAlts={["jQuery", "JS ES6", "HTML5"]}
               link={pageContent.pokedex.link}
               repo={pageContent.pokedex.repo}
-              />
-            <Card 
-              src={BannerPitch} 
-              alt="IBM Logo"
-              titleText={pageContent.pitch.title}
-              bodyText={pageContent.pitch.content}
-              icons={[IconCss, IconHtml, IconGitA]}
-              iconAlts={["CSS3", "HTML5", "GIT"]}
-              link={pageContent.pitch.link}
-              repo={pageContent.pitch.repo}
               />
           </div>
         </div>

@@ -17,11 +17,11 @@
     "link": "https://people.rit.edu/jtv6445/230/project2/",
     "repo": "https://github.com/saint-justin/pokedex"
   },
-  "pitch": {
-    "title": "Dino Land Pitch",
-    "content": "A precursor to Dino Land, this website pitches the initial idea for a 2D party game to be developed in PixiJS. The game itself shifted direction after the pitch website was done being developed, but the site is still a fair example of solid markup and css rule-making.",
-    "link": "https://people.rit.edu/jtv6445/230/project1/",
-    "repo": "https://github.com/saint-justin/dino-pitch/"
+  "wow": {
+    "title": "World of Warcraft Lookup",
+    "content": "A deeper dive into API integration, the World of Warcraft Character Lookup Table is a project developed to utilize an API in a front-end setting with OAuth 2.0 API integration. Parts of the program are sub-optimally made or use deprecated functions, but the functionality is there if a bit clunky.",
+    "link": "/wow-justin-vaughn",
+    "repo": "https://github.com/saint-justin/wow-char-lookup/"
   },
 
 
