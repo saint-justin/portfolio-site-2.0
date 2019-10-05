@@ -5,12 +5,13 @@ class StickyHeader extends Component {
   addStickyNavItems(itemNameArr, itemLinkArr){
     let componentList = [];
     for(let i=0; i<itemNameArr.length; i++){
-      componentList.push(<h3><a href={itemLinkArr[i]} key={itemNameArr[i]}> {itemNameArr[i]}</a></h3>);
+      componentList.push(<h3 key={"h3_" + itemNameArr[i]}><a href={itemLinkArr[i]} key={"a_" + itemNameArr[i]}> {itemNameArr[i]}</a></h3>);
     }
 
     return <>{componentList}</>;
   }
 
+  // TODO: Fix the sticky attackment on the sticky header. Currently non-functional.
   // Makes the element sticky if the distance from the top of the element to the top of the page is greater than zero
   /*checkSticky(){
     console.log("moving");

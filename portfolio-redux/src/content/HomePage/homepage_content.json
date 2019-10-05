@@ -1,25 +1,29 @@
 {
   "ibm": {
     "title": "AI Sol.'s Go to Market",
+    "shortTitle": "ibm",
     "content": "My internship at IBM working with four designers to build early designs for a future company offering. Pieces of the project are under NDA until market release, so please contact me directly to learn more about what I did here.",
     "link": "/",
     "repo": "/"
   },
   "dino": {
     "title": "Dino Land",
+    "shortTitle": "dino",
     "content": "Play as a dinosaur breeder in this DOM-based autoclicker. Programmed entirely in HTML, CSS, and Vanilla JS, this project was designed to test the limits of what I can make without any frameworks. Try it now to see if you can build an everlasting empire in a dinosaur-based economy!",
     "link": "https://people.rit.edu/jtv6445/230/project4/",
     "repo": "https://github.com/saint-justin/dino-land"
   },
   "pokedex": {
     "title": "Web App Pokedex",
+    "shortTitle": "pokedex",
     "content": "Ever have an inexplicable desire to learn about a Pokemon but don't know where to start? Try out my online pokedex! This two week project was designed to help me learn web API use with a partner. All visuals were created by me, pardon the garish color scheme.",
     "link": "https://people.rit.edu/jtv6445/230/project2/",
     "repo": "https://github.com/saint-justin/pokedex"
   },
   "wow": {
     "title": "World of Warcraft Lookup",
-    "content": "A deeper dive into API integration, the World of Warcraft Character Lookup Table is a project developed to utilize an API in a front-end setting with OAuth 2.0 API integration. Parts of the program are sub-optimally made or use deprecated functions, but the functionality is there if a bit clunky.",
+    "shortTitle": "wow",
+    "content": "A deeper dive into API integration, the World of Warcraft Character Lookup Table is a project developed to utilize an API in a front-end setting with OAuth 2.0 API integration. Parts of the program are sub-optimally made or use deprecated functions, but the functionality is there (if a bit clunky).",
     "link": "/wow-justin-vaughn",
     "repo": "https://github.com/saint-justin/wow-char-lookup/"
   },
@@ -28,24 +32,28 @@
 
   "deluge": {
     "title": "Deluge",
+    "shortTitle": "deluge",
     "content": "My team's single-player tile-based strategically-minded action rpg. This game is currently in development by a team of four people each wearing a lot of hats. I'm currently leading production, art, and pieces of programming. Contact me directly for a demo.",
     "link": "/",
     "repo": "https://github.com/ianmatic/Deluge"
   },
   "egg": {
     "title": "Egg",
+    "shortTitle": "egg",
     "content": "An elegant single player platformer starring a chicken learning to come out of her shell. I lead a four-person team of peers through the development of the game using the MonoGame engine. Initially a class project, we took our idea and ran with it to develop the game we really love.",
     "link": "https://ianmatic.itch.io/egg",
     "repo": "https://github.com/saint-justin/egg"
   },
   "asteroids": {
     "title": "Asteroids",
+    "shortTitle": "asteroids",
     "content": "This project began as a test to reproduce the effects and movements of the classic title 'Asteroids' and slowly evolved into a full blown interactive experience. I ran into some odd rendering issues within Unity along the way, so pardon the odd artifacting that happens in game.",
     "link": "https://drive.google.com/file/d/1y0akXzyidfA3hbpCOnWZGZzVjLRU8ffq/view?usp=sharing",
     "repo": "https://github.com/saint-justin/asteroids"
   },
   "tech": {
     "title": "Tech Art Exploration",
+    "shortTitle": "tech-art",
     "content": "This isn't so much a single project as it is a collection of experiments. I've been experimenting in Unreal using their Blueprint system to make shaders, vfx, and all sorts of other neat things. This will link you to my recent works in that area.",
     "link": "https://twitter.com/sloth__wrangler/",
     "repo": "/"

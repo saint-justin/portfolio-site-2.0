@@ -184,7 +184,8 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     width: 100%;
   }
 
-  .showcase--image-set img{
-    width: 100%;
+  // Temporarily disabling the showcase in mobile view until I find the root of the image-stretching issue
+  .showcase--wrapper{
+    display: none;
   }
 }

@@ -51,7 +51,7 @@
     }
 
   }
-  .card--footer-idividual{
+  .card--footer-individual{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -59,7 +59,7 @@
     height: 50%;
     transition: 0.15s;
   }
-  .card--footer-idividual:hover{
+  .card--footer-individual:hover{
     background-color: $grey70;
   }
 }

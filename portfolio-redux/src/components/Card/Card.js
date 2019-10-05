@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-//import { ReactComponent as Icon } from "../../assets/arrow-right-solid.svg";
 import SVG from 'react-inlinesvg';
 
 // Pull the built path from the pre-built path then pass that into the SVG component
@@ -23,8 +22,8 @@ class Card extends Component {
     let iconJSX = [];
     for(let i=0; i<iconsArr.length; i++){
       iconJSX.push(
-      <div className="card--footer-icon-wrapper">
-        <img src={iconsArr[i]} alt={iconAlts[i]}></img>
+      <div className="card--footer-icon-wrapper" key={"wrapper--" + iconAlts[i]}>
+        <img src={iconsArr[i]} alt={iconAlts[i]} key={"img--" + iconAlts[i]}></img>
         <h5>{iconAlts[i]}</h5>
       </div>)
     }
@@ -35,10 +34,11 @@ class Card extends Component {
   addExternalLinks(link, repo){
     let linkJSX = [];
     if (link.length > 1)
-      linkJSX.push(<a href={this.props.link} className="card--footer-idividual"><img src={arrowPath} alt="" fill="#FFF"/></a>)
+      linkJSX.push(<a href={this.props.link} className="card--footer-individual" key={"external-link--" + this.props.shortTitle}><img src={arrowPath} alt="" fill="#FFF"/></a>)
     if (repo.length > 1)
-      linkJSX.push(<a href={this.props.repo} className="card--footer-idividual"><img className="card--body-git" src={gitPath} alt="GitHub Link"/></a>)  
-      return <>{linkJSX}</>
+      linkJSX.push(<a href={this.props.repo} className="card--footer-individual" key={"external-repo--" + this.props.shortTitle}><img className="card--body-git" src={gitPath} alt="GitHub Link"/></a>)  
+    
+     return <>{linkJSX}</>
   }
 
   render(){

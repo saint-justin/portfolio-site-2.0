@@ -90,6 +90,7 @@ class HomePage extends Component {
               src={BannerIbm} 
               alt="IBM Logo"
               titleText={pageContent.ibm.title}
+              shortTitle={pageContent.ibm.shortTitle}
               bodyText={pageContent.ibm.content}
               icons={[IconReact, IconSass, IconGitA]}
               iconAlts={["ReactJS", "SASS", "GIT"]}
@@ -100,6 +101,7 @@ class HomePage extends Component {
               src={BannerWow} 
               alt="World of Warcraft Character Selecter Banner"
               titleText={pageContent.wow.title}
+              shortTitle={pageContent.wow.shortTitle}
               bodyText={pageContent.wow.content}
               icons={[IconJquery, IconJs, IconHtml]}
               iconAlts={["jQuery", "JS ES6", "HTML5"]}
@@ -110,6 +112,7 @@ class HomePage extends Component {
               src={BannerDino} 
               alt="Dino Land"
               titleText={pageContent.dino.title}
+              shortTitle={pageContent.dino.shortTitle}
               bodyText={pageContent.dino.content}
               icons={[IconJs, IconCss, IconHtml]}
               iconAlts={["JS ES6", "CSS3", "HTML5"]}
@@ -120,6 +123,7 @@ class HomePage extends Component {
               src={BannerPokedex} 
               alt="Web App Pokedex"
               titleText={pageContent.pokedex.title}
+              shortTitle={pageContent.pokedex.shortTitle}
               bodyText={pageContent.pokedex.content}
               icons={[IconJquery, IconJs, IconHtml]}
               iconAlts={["jQuery", "JS ES6", "HTML5"]}
@@ -141,6 +145,7 @@ class HomePage extends Component {
               src={BannerDeluge} 
               alt="Deluge Concept Art"
               titleText={pageContent.deluge.title}
+              shortTitle={pageContent.deluge.shortTitle}
               bodyText={pageContent.deluge.content}
               icons={[IconCSharp, IconUnity, IconGitB]}
               iconAlts={["C#", "Unity", "GIT"]}
@@ -151,6 +156,7 @@ class HomePage extends Component {
               src={BannerEgg} 
               alt="Egg Titlecard"
               titleText={pageContent.egg.title}
+              shortTitle={pageContent.egg.shortTitle}
               bodyText={pageContent.egg.content}
               icons={[IconCSharp, IconMono, IconAgile]}
               iconAlts={["C#", "MonoGame", "Agile"]}
@@ -161,6 +167,7 @@ class HomePage extends Component {
               src={BannerAsteroids} 
               alt="Asteroids Screenshot"
               titleText={pageContent.asteroids.title}
+              shortTitle={pageContent.asteroids.shortTitle}
               bodyText={pageContent.asteroids.content}
               icons={[IconCSharp, IconUnity, IconGitB]}
               iconAlts={["C#", "Unity", "GIT"]}
@@ -171,6 +178,7 @@ class HomePage extends Component {
               src={BannerTech} 
               alt="Tech Work"
               titleText={pageContent.tech.title}
+              shortTitle={pageContent.tech.shortTitle}
               bodyText={pageContent.tech.content}
               icons={[IconUnreal, IconAgile, IconGitB]}
               iconAlts={["UE4", "Agile", "GIT"]}
