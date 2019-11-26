@@ -189,7 +189,7 @@ class HomePage extends Component {
         </div>
 
         {/* ------------------------ FOOTER ROW ------------------------ */}
-        <div className="footer--row">
+        <div className="footer--row" id="#contact">
           <Contact img={Portrait}/>
         </div>
       </>

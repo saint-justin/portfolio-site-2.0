@@ -82,20 +82,13 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   .body--card-row-title{
     margin: 0 0 $base-unit/4 $base-unit;
     font-family: $type-mono;
-    font-weight: 600;
-
-    
+    font-weight: 600; 
   }
 
   .body--card-row-cards{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    .card--wrapper{
-      // Break to 2 columns 
-
-    }
   }
 }
 
@@ -107,10 +100,7 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   color: $text01;
 }
 
-//
-
 // -------------------------------------- RESPONSIVE/BREAKPOINT RULES --------------------------------------
-
 @media (max-width: 1200px){
   .card--wrapper{
     width: 49%;
@@ -177,6 +167,11 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
       margin: $base-unit 0;
     }
   }
+
+  // Temporarily disabling the showcase in mobile view until I find the root of the image-stretching issue
+  .showcase--wrapper{
+    display: none;
+  }
 }
 
 @media (max-width: 600px){
@@ -184,8 +179,4 @@ $font-sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
     width: 100%;
   }
 
-  // Temporarily disabling the showcase in mobile view until I find the root of the image-stretching issue
-  .showcase--wrapper{
-    display: none;
-  }
 }
