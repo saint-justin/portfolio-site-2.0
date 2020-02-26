@@ -6,6 +6,13 @@
     "link": "/",
     "repo": "/"
   },
+  "snooper": {
+    "title": "League Snooper",
+    "shortTitle": "snooper",
+    "content": "Snooping on how good your friends are at League of Legends has never been easier! This ReactJS/AWS project lets users look up their friends mastery rankings from the comfort of their web browser. Try it now!",
+    "link": "http://jvaughn.org/mastery/",
+    "repo": "https://github.com/saint-justin/league-snooper"
+  },
   "dino": {
     "title": "Dino Land",
     "shortTitle": "dino",

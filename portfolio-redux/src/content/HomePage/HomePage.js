@@ -15,7 +15,8 @@ import WebIcon from '../../assets/icon-laptop.svg'
 import GameIcon from '../../assets/icon-gamepad.svg'
 
 //Importing Images
-import BannerIbm from '../../assets/images/ibm_logo.jpg'
+// import BannerIbm from '../../assets/images/ibm_logo.jpg'
+import BannerSnooper from '../../assets/images/snooper-banner.png'
 import BannerDino from '../../assets/images/dino-land-banner.png'
 import BannerPokedex from '../../assets/images/pokedex-banner.png'
 import BannerWow from '../../assets/images/wow-banner.png'
@@ -87,15 +88,15 @@ class HomePage extends Component {
           <h3 className="body--card-row-title" id="web">Web Dev</h3>
           <div className="body--card-row-cards">
             <Card 
-              src={BannerIbm} 
-              alt="IBM Logo"
-              titleText={pageContent.ibm.title}
-              shortTitle={pageContent.ibm.shortTitle}
-              bodyText={pageContent.ibm.content}
+              src={BannerSnooper} 
+              alt="Mastery Snooper Banner"
+              titleText={pageContent.snooper.title}
+              shortTitle={pageContent.snooper.shortTitle}
+              bodyText={pageContent.snooper.content}
               icons={[IconReact, IconSass, IconGitA]}
               iconAlts={["ReactJS", "SASS", "GIT"]}
-              link={pageContent.ibm.link}
-              repo={pageContent.ibm.repo}
+              link={pageContent.snooper.link}
+              repo={pageContent.snooper.repo}
               />
             <Card 
               src={BannerWow} 
