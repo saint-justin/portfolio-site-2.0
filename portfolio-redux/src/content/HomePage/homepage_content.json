@@ -9,9 +9,16 @@
   "snooper": {
     "title": "League Snooper",
     "shortTitle": "snooper",
-    "content": "Snooping on how good your friends are at League of Legends has never been easier! This ReactJS/AWS project lets users look up their friends mastery rankings from the comfort of their web browser. Try it now!",
+    "content": "Snooping on how good your friends are at League of Legends has never been easier! This ReactJS/AWS project lets users look up their friends mastery rankings from the comfort of their web browser. Want to look up Justin's stats? Try searching for 'Saint Sloth'!",
     "link": "http://jvaughn.org/mastery/",
     "repo": "https://github.com/saint-justin/league-snooper"
+  },
+  "vibe": {
+    "title": "VibeCheck",
+    "shortTitle": "vibe",
+    "content": "Initially an entry for BrickHack2020, VibeCheck is a daily check-in app to track your mental health. Technical demos are still in the proof of concept stage, but feel free to check out our Figma mockups via the link below!",
+    "link": "https://www.figma.com/file/6ayEVTUdvZ4d4TDbS5sZLF/BrickHack-VibeCheck?node-id=0%3A1",
+    "repo": "/"
   },
   "dino": {
     "title": "Dino Land",
@@ -31,7 +38,7 @@
     "title": "World of Warcraft Lookup",
     "shortTitle": "wow",
     "content": "A deeper dive into API integration, the World of Warcraft Character Lookup Table is a project developed to utilize an API in a front-end setting with OAuth 2.0 API integration. Parts of the program are sub-optimally made or use deprecated functions, but the functionality is there (if a bit clunky).",
-    "link": "/wow-justin-vaughn",
+    "link": "https://jvaughn.org/wow-justin-vaughn",
     "repo": "https://github.com/saint-justin/wow-char-lookup/"
   },
 

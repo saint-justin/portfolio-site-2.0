@@ -15,11 +15,10 @@ import WebIcon from '../../assets/icon-laptop.svg'
 import GameIcon from '../../assets/icon-gamepad.svg'
 
 //Importing Images
-// import BannerIbm from '../../assets/images/ibm_logo.jpg'
 import BannerSnooper from '../../assets/images/snooper-banner.png'
 import BannerDino from '../../assets/images/dino-land-banner.png'
 import BannerPokedex from '../../assets/images/pokedex-banner.png'
-import BannerWow from '../../assets/images/wow-banner.png'
+import BannerWow from '../../assets/images/vibe-banner.png'
 
 import BannerDeluge from '../../assets/images/deluge-banner.png'
 import BannerEgg from '../../assets/images/egg-banner.png'
@@ -57,8 +56,8 @@ import IconUnity from '../../assets/icons/unity_icon.png'
 import IconGitB from '../../assets/icons/gito_icon.png'
 import IconMono from '../../assets/icons/mono_icon.png'
 
-let stickyNavNames = ['Web Work', 'Game Dev', 'Resume', 'Contact', 'GitHub'];
-let stickyNavLinks = ['#web', '#game', './resume.pdf', '#contact', 'https://github.com/saint-justin']
+let stickyNavNames = ['Web Work', 'Game Dev', 'Resume', 'GitHub'];
+let stickyNavLinks = ['#web', '#game', './resume.pdf', 'https://github.com/saint-justin']
 
 class HomePage extends Component {
   render(){
@@ -101,13 +100,13 @@ class HomePage extends Component {
             <Card 
               src={BannerWow} 
               alt="World of Warcraft Character Selecter Banner"
-              titleText={pageContent.wow.title}
-              shortTitle={pageContent.wow.shortTitle}
-              bodyText={pageContent.wow.content}
-              icons={[IconJquery, IconJs, IconHtml]}
-              iconAlts={["jQuery", "JS ES6", "HTML5"]}
-              link={pageContent.wow.link}
-              repo={pageContent.wow.repo}
+              titleText={pageContent.vibe.title}
+              shortTitle={pageContent.vibe.shortTitle}
+              bodyText={pageContent.vibe.content}
+              icons={[IconReact, IconJs, IconHtml]}
+              iconAlts={["React Native", "JS ES6", "HTML5"]}
+              link={pageContent.vibe.link}
+              repo={pageContent.vibe.repo}
               />
             <Card 
               src={BannerDino} 

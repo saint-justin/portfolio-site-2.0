@@ -24,7 +24,8 @@ class Card extends Component {
       iconJSX.push(
       <div className="card--footer-icon-wrapper" key={"wrapper--" + iconAlts[i]}>
         <img src={iconsArr[i]} alt={iconAlts[i]} key={"img--" + iconAlts[i]}></img>
-        <h5>{iconAlts[i]}</h5>
+        {iconAlts[i] === "React Native" ? <h5>React<br></br>Native</h5> : <h5>{iconAlts[i]}</h5>}
+        {/* <h5>{iconAlts[i]}</h5> */}
       </div>)
     }
     return <>{iconJSX}</>;
