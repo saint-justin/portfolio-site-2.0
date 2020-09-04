@@ -6,7 +6,7 @@
     "@carbon/grid": "^10.6.0",
     "carbon-components": "^10.6.1",
     "carbon-components-react": "^7.6.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-inlinesvg": "^1.1.6",
